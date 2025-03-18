@@ -1,0 +1,113 @@
+.aboutus-heading{
+    width: 90%;
+    color: #1a1a1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.aboutus-heading h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+}
+.aboutus-heading h1::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #4caf50;
+}
+.aboutus-heading p{
+    font-size: 18px;
+    color: #606060;
+    margin-bottom: 35px;
+}
+.aboutus-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.aboutus-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease ;
+}
+.about-image img:hover{
+    transform: scale(1.2);
+}
+.about-content{
+    flex: 1;
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+.about-content .read-more{
+    border: 2px solid #213555;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #213555;
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+.about-content .read-more:hover{
+    background-color:#213555;
+    color: #fff;
+}
+@media screen and (max-width: 768px){
+    .aboutus-heading{
+        padding: 0px 20px;
+    }
+    .aboutus-heading h1{
+        font-size: 36px;
+    }
+    .aboutus-heading p{
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+    .aboutus-container{
+        padding: 0px;
+    }
+    .aboutus-about{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .about-image{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .about-content p{
+        padding: 0px;
+        font-size: 16px;
+    }
+    .about-content .read-more{
+        font-size: 16px;
+    }
+
+}

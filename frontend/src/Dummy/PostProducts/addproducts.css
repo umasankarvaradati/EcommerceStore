@@ -1,0 +1,22 @@
+ .add-product-form input{
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    margin: 25px;
+}
+.add-product-form button{
+    margin: 25px;
+    width: 100px;
+    padding: 10px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    background-color: #213555;
+}
+
+
+/*
+.add-product-form label{
+    font-size: 25px;
+    margin: 25px;
+}*/

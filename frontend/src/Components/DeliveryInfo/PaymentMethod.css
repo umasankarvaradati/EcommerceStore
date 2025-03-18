@@ -1,0 +1,52 @@
+.payment-method {
+    display: flex;
+    flex-direction: column; /* Ensures the items are stacked vertically */
+    align-items: flex-start; /* Aligns all child items to the start */
+    gap: 20px;
+}
+.content{
+    margin-top: 10px;
+}
+.content .title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content input {
+    width: 100%;
+    padding:10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: #3e5879;
+}
+
+.multi-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.multi-fields input {
+    width: 40%;
+    margin-right: 10%; /* Add gap */
+    padding:5px;
+    font-size: 17px;
+}
+
+.multi-fields input:last-child {
+    margin-right: 0; /* Remove margin from the last input */
+}
+ 
+
+
+.payment-method-item label{
+    font-size: 18px;
+}
+
+.payment-method-container h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
