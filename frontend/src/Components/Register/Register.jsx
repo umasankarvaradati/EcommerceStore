@@ -116,7 +116,7 @@ const Register = () => {
               {!isValid.confirmPassword && <p className='not-valid'>Passwords do not match.</p>}
             </div>
             <div className='button'>
-              <button type='submit'>Register</button>
+              <button type='submit' disabled={!(isValid.username && (formData.password === formData.confirmPassword) && isValid.email)}>Register</button>
             </div>
             {/* {serverMessage && <p className='server-message'>{serverMessage}</p>} {/* Display server message */}
             {/* {error && <p className='error-message'>{error}</p>}  */}
