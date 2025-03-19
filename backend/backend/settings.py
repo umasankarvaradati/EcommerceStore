@@ -122,6 +122,8 @@ TOKEN_EXPIRY_DURATION = 43200
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "suvecommerce.vercel.app",
+    "ecommercestore-6yg9.onrender.com"
 ]
 
 CORS_ALLOW_CREDENTIALS = True 
