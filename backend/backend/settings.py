@@ -121,8 +121,8 @@ REST_FRAMEWORK = {
 TOKEN_EXPIRY_DURATION = 43200
 
 CORS_ALLOWED_ORIGINS = [
-    "suvecommerce.vercel.app",
-    "ecommercestore-6yg9.onrender.com"
+    "https://suvecommerce.vercel.app",
+    "https://ecommercestore-6yg9.onrender.com"
 ]
 
 CORS_ALLOW_CREDENTIALS = True 
