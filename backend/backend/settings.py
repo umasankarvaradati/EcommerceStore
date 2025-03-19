@@ -17,7 +17,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "suvecommerce.vercel.app",
-    "ecommercestore-6yg99.onrender.com"
+    "ecommercestore-v655.onrender.com"
 ]
 
 # Application definition
@@ -125,7 +125,7 @@ TOKEN_EXPIRY_DURATION = 43200
 
 CORS_ALLOWED_ORIGINS = [
     "https://suvecommerce.vercel.app",
-    "https://ecommercestore-6yg9.onrender.com"
+    "https://ecommercestore-v655.onrender.com"
 ]
 
 CORS_ALLOW_CREDENTIALS = True 
