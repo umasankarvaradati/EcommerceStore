@@ -130,5 +130,9 @@ CORS_ALLOWED_ORIGINS = [
 
 CORS_ALLOW_CREDENTIALS = True 
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://ecommercestore-v655.onrender.com",
+]
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
