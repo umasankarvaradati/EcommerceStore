@@ -2,7 +2,7 @@ import Login from './Components/Login/Login'
 import Home from './Components/Home/Home'
 import Register from './Components/Register/Register'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Cart from './Components/cart/Cart';
+import Cart from './Components/Cart/Cart';
 import Navbar from './Components/Home/Navbar';
 import PlaceOrder from './Components/DeliveryInfo/PlaceOrder';
 import AboutUs from './Components/AboutUs/AboutUs';
