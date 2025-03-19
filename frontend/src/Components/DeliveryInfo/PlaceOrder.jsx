@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './PlaceOrder.css'
 import { useSelector, useDispatch } from 'react-redux';
-import { calculateTotal } from '../cart/CalculateAmount';
+import { calculateTotal } from '../Cart/CalculateAmount';
 import PaymentMethod from './PaymentMethod';
 import {emptyCart} from '../../ReduxStore/features/Cart/cartSlice'
 import { useNavigate } from 'react-router-dom';
