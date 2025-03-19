@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-t169#9o@4c-ihi!*#2z1&7y$^9*+ljm@i$pub&6g$ag7ilam1s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["suvecommerce.vercel.app"]
 
 # Application definition
 INSTALLED_APPS = [
