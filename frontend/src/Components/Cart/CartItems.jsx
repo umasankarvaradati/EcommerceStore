@@ -1,5 +1,5 @@
 import {React} from 'react'
-import './Cart.css'
+import './cart.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { MdDeleteForever } from "react-icons/md";
 import { addCart, deleteCart } from '../../ReduxStore/features/Cart/cartSlice';
