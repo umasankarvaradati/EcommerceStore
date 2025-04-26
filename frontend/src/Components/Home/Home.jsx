@@ -5,7 +5,7 @@ import { useDispatch} from 'react-redux';
 import { addFilter } from '../../ReduxStore/features/FilterOption/FilterSlice';
 import { BROWSE_BY_CATEGORY } from '../../assets/fetchAPIS';
 const Home = () => {
-  const imgFile=["shirt.png","pants.png","Shoes.png","Caps.png","tshirts.png"];
+  const imgFile=[{name:"Shirts",image:"shirt.png"},{name:"Pants",image:"pants.png"},{name:"Shoes",image:"Shoes.png"},{name:"Caps",image:"Caps.png"},{name:"T-shirts",image:"tshirts.png"}];
   const top_trending=["top_trending.jpg","top_trending1.jpg"]
   const dispatch=useDispatch();
   
@@ -30,8 +30,8 @@ const Home = () => {
           {
             imgFile.map((img,index)=>(
               <div key={index}>
-                <Link to="/shop"><img src={BROWSE_BY_CATEGORY+img} alt="" name="shirts"/></Link>
-                <p>Shirts</p>
+                <Link to="/shop"><img src={BROWSE_BY_CATEGORY+img.image} alt="" name={img.name.toLowerCase()}/></Link>
+                <p>{img.name}</p>
               </div>))
           }
         </div>
